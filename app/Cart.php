@@ -17,10 +17,15 @@ class Cart
      }
 
      if(!$inCart) {
-        var_dump('not in cart');
+        $this->setProductsInCart($product);
      }
 
-  } 
+  }
+  
+  private function setProductsInCart($product)
+  {
+    $this->getCart()['products'][] = $product;
+  }
 
   public function remove()
   {
