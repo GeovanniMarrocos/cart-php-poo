@@ -1,6 +1,4 @@
-<?php require_once("./helpers/getIdi.php");
- include_once ("./helpers/getIdi.php"); var_dump($id);
-?>
+<?php require_once("./config/getIdi.php");?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
