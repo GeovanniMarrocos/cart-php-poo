@@ -37,4 +37,3 @@ class Cart
     return $_SESSION['cart'] ?? [];
   }
 }
-

@@ -8,7 +8,6 @@ class Products
   private int $price;
   private int $quantity;
 
-
   //SET
   public function setId(int $id)
   {
